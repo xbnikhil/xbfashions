@@ -386,7 +386,11 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner1.jpg");
+<<<<<<< HEAD
     min-width: 50%;
+=======
+    min-width: 620px;
+>>>>>>> 09e2bcbc8303f53e56a8b9c2b74ee82f003d5bf8
     height: 50vh;
     background-size: cover;
     background-position: center;
