@@ -433,7 +433,6 @@ body {
     align-items: flex-start;
     background-image: url("img/banner3.jpg");
     min-width: 32%;
-    min-width: 33.33%;
     height: 40vh;
     background-size: cover;
     background-position: center;
@@ -441,7 +440,6 @@ body {
     margin-bottom: 22px;
     /* margin-right: 28px;  */
 }
-
 #banner3 .banner-box2{
     background-image: url("img/banner4.jpg");
 }
