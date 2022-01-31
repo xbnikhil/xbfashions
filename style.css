@@ -386,11 +386,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner1.jpg");
-<<<<<<< HEAD
     min-width: 50%;
-=======
-    min-width: 620px;
->>>>>>> 09e2bcbc8303f53e56a8b9c2b74ee82f003d5bf8
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -427,7 +423,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: #fff;
-    padding: 0 80px;
+    padding: 0px 80px 30px 80px;
 }
 
 #banner3 .banner-box{
@@ -436,8 +432,8 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner3.jpg");
-    min-width: 33.33%;
-    height: 32vh;
+    min-width: 32%;
+    height: 40vh;
     background-size: cover;
     background-position: center;
     padding: 20px;
