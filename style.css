@@ -198,12 +198,17 @@ body {
 
 #product1 {
     text-align: center;
-    background-color: black;
+    background-color: white;
 }
 
 #product1 p {
     color: #e42024;
 }
+
+#product1 h2 {
+    color: black;
+}
+
 
 #product1 .pro-container {
     display: flex;
@@ -212,10 +217,11 @@ body {
     flex-wrap: wrap;
 }
 #product1 .pro {
+    background-color: rgb(238, 235, 235);
     width: 23%;
     min-width: 250px;
     padding:10px 12px;
-    border: 1px solid #272727;
+    border: 1px solid #696969;
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgb(0, 0, 0,0.02);
@@ -238,13 +244,13 @@ body {
 }
 
 #product1 .pro .des span {
-    color: #fff;
+    color: #272727;
     font-size: 14px;
 }
 
 #product1 .pro .des h5 {
     padding-top: 7px;
-    color: #fff;
+    color: #272727;
     font-size: 14px;
 } 
 
@@ -278,9 +284,10 @@ body {
 /* BEST SELLING  */
 
 #product2 {
-    margin: -40px 0;
+    margin: -20px 0;
     text-align: center;
-    background-color: black;
+    background-color: #fff;
+    padding-bottom: 50px;
 }
 
 #product2 .pro-container {
@@ -290,10 +297,11 @@ body {
     flex-wrap: wrap;
 }
 #product2 .pro {
+    background-color: rgb(238, 235, 235);
     width: 23%;
     min-width: 250px;
     padding:10px 12px;
-    border: 1px solid #272727;
+    border: 1px solid #777777;
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgb(0, 0, 0,0.02);
@@ -301,6 +309,15 @@ body {
     transition: 0.2s ease;
     position: relative;
 }
+
+#product2 h2 {
+    color: #000;
+}
+
+#product2 p {
+    color: #e42024;
+}
+
 #product2 .pro:hover{
     box-shadow: 20px 20px 30px rgb(0, 0, 0,0.06);
 }
@@ -316,13 +333,13 @@ body {
 }
 
 #product2 .pro .des span {
-    color: #fff;
+    color: #000;
     font-size: 14px;
 }
 
 #product2 .pro .des h5 {
     padding-top: 7px;
-    color: #fff;
+    color: #000;
     font-size: 14px;
 } 
 
@@ -359,7 +376,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: #fff;
     padding: 0 80px;
 }
 
@@ -369,12 +386,12 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner1.jpg");
-    min-width: 660px;
+    min-width: 50%;
     height: 50vh;
     background-size: cover;
     background-position: center;
     padding: 30px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 #sm-banner .banner-box-2{
@@ -405,7 +422,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: #fff;
     padding: 0 80px;
 }
 
@@ -415,7 +432,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner3.jpg");
-    min-width: 30%;
+    min-width: 33.33%;
     height: 32vh;
     background-size: cover;
     background-position: center;
@@ -619,6 +636,7 @@ footer .copyright {
         min-width: 100%;
         height: 40vh;
     }
+    
 /* 
     #banner3 {
         padding: 0 40px;
