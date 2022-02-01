@@ -145,6 +145,7 @@ body {
 }
 
 #hero p {
+    font-weight: 600;
     color: rgb(49, 47, 47);
 }
 
@@ -202,6 +203,7 @@ body {
 }
 
 #product1 p {
+    font-weight: 700;
     color: #e42024;
 }
 
@@ -221,7 +223,7 @@ body {
     width: 23%;
     min-width: 250px;
     padding:10px 12px;
-    border: 1px solid #696969;
+    border: 1px solid #d9d2d2;
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgb(0, 0, 0,0.02);
@@ -301,7 +303,7 @@ body {
     width: 23%;
     min-width: 250px;
     padding:10px 12px;
-    border: 1px solid #777777;
+    border: 1px solid #d9d2d2;
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgb(0, 0, 0,0.02);
@@ -315,6 +317,7 @@ body {
 }
 
 #product2 p {
+    font-weight: 700;
     color: #e42024;
 }
 
@@ -432,11 +435,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner3.jpg");
-<<<<<<< HEAD
     min-width: 32%;
-=======
-    min-width: 33.33%;
->>>>>>> b5e7d845bad295e5cca07531933140db6ac6073c
     height: 40vh;
     background-size: cover;
     background-position: center;
