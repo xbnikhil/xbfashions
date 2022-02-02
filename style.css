@@ -144,6 +144,10 @@ body {
     color: #E8175D;
 }
 
+#hero h2 {
+    text-shadow: 0px 2px #3a3939;
+}
+
 #hero p {
     font-weight: 600;
     color: rgb(49, 47, 47);
@@ -413,6 +417,7 @@ body {
     color: #fff;
     font-size: 28px;
     font-weight: 800;
+    text-shadow: 0px 2px #3a3939;
 }
 
 
@@ -455,6 +460,7 @@ body {
     color: #fff;
     font-weight: 900;
     font-size: 22px;
+    text-shadow: 0px 2px #3a3939;
 }
 
 #banner3 h3 {
