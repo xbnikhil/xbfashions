@@ -65,8 +65,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: black;
-    box-shadow: 0 5px 15px rgb(0, 0, 0,0.06);
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgb(0, 0, 0,0.15);
     position: sticky;
     top: 0;
     left: 0;
@@ -89,15 +89,15 @@ body {
 #navbar li a {
     text-decoration: none;
     font-size: 16px;
-    font-weight: 500;
-    color: #ffffff;
+    font-weight: 600;
+    color: #000;
     transition: 0.3s;
 }
 
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: #e42024;
+    color: #E8175D;
 } 
 
 #navbar li a.active::after,
@@ -105,7 +105,7 @@ body {
     content: "";
     width: 30%;
     height: 3px;
-    background: #e42024;
+    background: #E8175D;
     bottom: -4px ;
     position: absolute;
     left: 20px;
@@ -122,7 +122,7 @@ body {
 
 /* HERO  */
 #hero {
-    background-image: url("img/hero2.jpg");
+    background-image: url("img/hero3.jpg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -141,7 +141,7 @@ body {
 }
 
 #hero h1 {
-    color: #e42024;
+    color: #E8175D;
 }
 
 #hero p {
@@ -152,7 +152,7 @@ body {
 #hero button {
      background-image: url("");
      background-color: transparent;
-     color: #e42024;
+     color: #E8175D;
      border: 0;
      padding: 14px 80px 14px 65px;
      background-repeat: no-repeat;
@@ -179,7 +179,7 @@ body {
     touch-action: manipulation;
   }
   #hero button a {
-      color: #e42024;
+      color: #E8175D;
       text-decoration: none;
   }
   
@@ -199,12 +199,12 @@ body {
 
 #product1 {
     text-align: center;
-    background-color: white;
+    background-color: #E3E6F3;
 }
 
 #product1 p {
     font-weight: 700;
-    color: #e42024;
+    color: #E8175D;
 }
 
 #product1 h2 {
@@ -265,7 +265,7 @@ body {
     padding-top: 7px;
     font-size: 18px;
     font-weight: 700;
-    color: #e42024;
+    color: #E8175D;
 
 }
 
@@ -288,7 +288,7 @@ body {
 #product2 {
     margin: -20px 0;
     text-align: center;
-    background-color: #fff;
+    background-color: #E3E6F3;
     padding-bottom: 50px;
 }
 
@@ -318,7 +318,7 @@ body {
 
 #product2 p {
     font-weight: 700;
-    color: #e42024;
+    color: #E8175D;
 }
 
 #product2 .pro:hover{
@@ -355,7 +355,7 @@ body {
     padding-top: 7px;
     font-size: 18px;
     font-weight: 700;
-    color: #e42024;
+    color: #E8175D;
 
 }
 
@@ -379,7 +379,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #fff;
+    background-color: #E3E6F3;
     padding: 0 80px;
 }
 
@@ -417,7 +417,7 @@ body {
 
 
 #sm-banner span {
-    color: #e42024;
+    color: #E8175D;
     font-weight: 800;
 }
 
@@ -425,7 +425,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #fff;
+    background-color: #E3E6F3;
     padding: 0px 80px 30px 80px;
 }
 
@@ -458,7 +458,7 @@ body {
 }
 
 #banner3 h3 {
-    color: #e42024;
+    color: #E8175D;
     font-weight: 800;
     font-size: 15px;
 }
@@ -486,7 +486,7 @@ body {
     padding: 9px 8px 6px 8px;
     line-height: 1;
     border-radius: 4px;
-    color: #e42024;
+    color: #E8175D;
     background-color: aquamarine;
 }
 
@@ -553,7 +553,7 @@ footer .social i {
 
 footer .social i:hover,
 footer a:hover{
-    color:#e42024;
+    color:#E8175D;
 }
 
 footer .copyright {
@@ -604,7 +604,7 @@ footer .copyright {
         position: absolute;
         top: 30px;
         left: 30px;
-        color: #e42024;
+        color: #E8175D;
         font-size: 24px;
     }
 
